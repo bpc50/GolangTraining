@@ -11,7 +11,7 @@ func main() {
 	//Scan will sit and wait for User Answer, once recieved, it'll deliver answer, as meters, and continue formula. 
 	fmt.Scan(&meters)	//Accept User Input.  Just like Print writes to standard out, Scan recieves from standard in.
 						//Said more simply: When someone writes something with their keyboard, catch it!
-						//Not in Go Doc. Just have to know.
+						//Not in Go Doc. Just have to know that catching the memory address/value of user input, works like this.
 
 	yards := meters * metersToYards
 	fmt.Println(meters, " meters is ", yards, " yards.")
