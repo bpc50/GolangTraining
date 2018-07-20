@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func bpc(b *int) { // 2) bpc is now passed up here, and then stored in new var b, as type int.
-	*b = 200
+	*b = 200        //dereferencing memory address, so we can change actual value.
 	fmt.Println(*b) // 3) will be 200.
 }
 
