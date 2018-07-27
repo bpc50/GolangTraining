@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	//Declaring/Assigning variable an initial value of 0.  Ie, when you don't specify, Go will automatically assign a starting value.
+	//Use Var when Declaring/Assigning variable an initial value of 0. When you don't specify, Go will auto assign a starting value.
 	var a int
 	var b string
 	var c float64
